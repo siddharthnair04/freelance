@@ -1683,23 +1683,22 @@ nav.theme-nav-transitioning .ul-mobile li.active a > span::before {
    color: #0077b5;
 }
 @media screen and (max-width: 540px){
-
-  .links-mobile{
-   padding-left: 20%;
-  }
-  .links-mobile h3:nth-child(1){
-   transform: translateY(128%);
-  }
-  .links-mobile h3:nth-child(2){
-   transform: translateX(35%);
-  }
-  .links-mobile h3:nth-child(4){
-   transform: translate(35%,-128%);
-  }
-  .links-mobile h3:nth-child(5){
-   transform: translateX(30%);
-   transform: translateY(-128%);
-  }
+   .links-mobile{
+      padding-left: 20%;
+     }
+     .links-mobile h3:nth-child(1){
+      transform: translateY(128%);
+     }
+     .links-mobile h3:nth-child(2){
+      transform: translateX(35%);
+     }
+     .links-mobile h3:nth-child(4){
+      transform: translate(35%,-128%);
+     }
+     .links-mobile h3:nth-child(5){
+      transform: translateX(30%);
+      transform: translateY(-128%);
+     }
 }
 @media (hover: hover) { 
    .has-scroll-smooth .footer .overlay-gradient  {
@@ -1711,6 +1710,9 @@ nav.theme-nav-transitioning .ul-mobile li.active a > span::before {
    .footer .overlay-gradient  {
       display: none;
    }
+}
+@media screen and (max-width: 540px){
+
 }
 
 
