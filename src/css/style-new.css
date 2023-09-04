@@ -1656,7 +1656,6 @@ nav.theme-nav-transitioning .ul-mobile li.active a > span::before {
    pointer-events: none;
    display: none;
 }
-
 .footer .overlay-gradient-inner {
    background: linear-gradient(0deg, rgba(var(--color-black-rgb), 0) 0%, rgba(var(--color-black-rgb), 1) 100%);
    transform: translateY(-100%);
@@ -1683,21 +1682,27 @@ nav.theme-nav-transitioning .ul-mobile li.active a > span::before {
    color: #0077b5;
 }
 @media screen and (max-width: 540px){
+   .address-mobile{
+      transform: translateY(-30%);
+   }
    .links-mobile{
       padding-left: 20%;
+      font-size: 50px;
      }
      .links-mobile h3:nth-child(1){
-      transform: translateY(128%);
+      transform: translate(-100% ,400%);
      }
      .links-mobile h3:nth-child(2){
-      transform: translateX(35%);
+      transform: translate(-60% ,190%);
+     }
+     .links-mobile h3:nth-child(3){
+      transform: translate(-23% ,-20%);
      }
      .links-mobile h3:nth-child(4){
-      transform: translate(35%,-128%);
+      transform: translate(20% ,-235%);
      }
      .links-mobile h3:nth-child(5){
-      transform: translateX(30%);
-      transform: translateY(-128%);
+      transform: translate(58% ,-450%);
      }
 }
 @media (hover: hover) { 
@@ -2873,6 +2878,24 @@ Toggle Fade
    .profile-caption p{
       color: #000;
       font-size: 0.8em;
+      padding-top: 0.8%;
+      padding-left: 6%
+   }
+}
+@media screen and (max-width: 425px) {
+   .card{
+      width: 8em;
+      height: 13.5em;
+   }
+   .profile-caption h5{
+      color: #000;
+      font-size: 0.8em;
+      font-weight: 600;
+      padding-left: 5.5%;
+   }
+   .profile-caption p{
+      color: #000;
+      font-size: 0.7em;
       padding-top: 0.8%;
       padding-left: 6%
    }

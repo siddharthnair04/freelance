@@ -655,16 +655,17 @@
 }
 
 .single-work-item .tags {
-   display: flex;
+   display: list-item;
    flex-wrap: wrap;
    gap: 0.3em;
    padding-top: 0.35em;
 }
 
 .single-work-item .tags span {
+   display: list-item;
    color: rgba(var(--color-dark-rgb), 0.8);
    /* font-size: 0.85em; */
-   line-height: 1.2;
+   line-height: 1.5;
    font-weight: 450;
 }
 
