@@ -1082,44 +1082,46 @@ nav.theme-nav-transitioning .logo .symbol rect {
 nav .logo svg {
    position: relative;
    overflow: hidden;
+
    transform: translateX(0%);
    transition: transform var(--animation-smooth);
 }
 /*S*/
 nav .logo svg:nth-child(2) {
-   transform: translateX(-25%);
+   transform: translate(-10%, -5%);
+
 }
 /*p*/
 nav .logo svg:nth-child(3) {
-   transform: translate(-38% , 21%) ;
+   transform: translate(-33% , 19.5%) ;
 }
 /*a*/
 nav .logo svg:nth-child(4) {
-   transform: translate(-51%, 15%) ;
+   transform: translate(-51%, 9%) ;
 }
 /*r*/
 nav .logo svg:nth-child(5) {
-   transform: translate(-85%, 15%) ;
+   transform: translate(-87%, 9%) ;
 }
 /*k*/
 nav .logo svg:nth-child(6) {
-   transform: translate(-78%, -5%) ;
+   transform: translate(-78%, -9%) ;
 }
 /*s*/
 nav .logo svg:nth-child(7) {
-   transform: translate(-120%, 14%) ;
+   transform: translate(-120%, 13%) ;
 }
 /*L*/
 nav .logo svg:nth-child(8) {
-   transform: translate(-130%, -1%) ;
+   transform: translate(-130%, -5%) ;
 }
 /*a*/
 nav .logo svg:nth-child(9) {
-   transform: translate(-172.5%, 16%) ;
+   transform: translate(-172.5%, 9%) ;
 }
 /*b*/
 nav .logo svg:nth-child(10) {
-   transform: translate(-190%, -2%) ;
+   transform: translate(-190%, -5%) ;
 }
 
 
